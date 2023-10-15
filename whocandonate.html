@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>PulseCare</title>
+
+    <title>PulseCare-Blood Donation website</title>
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s" ;>
+        <div class="row gx-0 d-none d-lg-flex" style="background-color: rgba(238, 103, 103, 0.629);">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text me-2" style="color: brown;"></small>
+                    <small style="color: rgb(28, 18, 18);">Pulsecare DBIT, 123 Street, Mumbai, India</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text- me-2" style="color: brown;"></small>
+                    <small style="color: rgb(28, 18, 18);">Mon - Fri : 09.00 AM - 09.00 PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-me-2" style="color: brown;"></small>
+                    <small style="color: rgb(28, 18, 18);">+91 7506800262</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"style="color: brown;"></i></a>
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i class="fab fa-twitter"style="color: brown;"></i></a>
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"style="color: brown;"></i></a>
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-0" href=""><i class="fab fa-instagram"style="color: brown;"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h1 class="m-0 text" style="color: brown;"><i class="far fa-hospital me-3" style="color: brown;"></i>PulseCare</h1>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                
+                
+                
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                        <a href="mission.html" class="dropdown-item">Mission</a>
+                        <a href="whocandonate.html" class="dropdown-item">Who can donate?</a>
+                        <a href="testimonial.html" class="dropdown-item">Types of donation</a>
+                        <a href="404.html" class="dropdown-item">FAQs</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Program</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                        <a href="feature.html" class="dropdown-item">Event</a>
+                        <a href="team.html" class="dropdown-item">Collaborations</a>
+                        <a href="appointment.html" class="dropdown-item">Blood drives</a>
+                        
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">User</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                        <a href="feature.html" class="dropdown-item">Register</a>
+                        <a href="team.html" class="dropdown-item">Donor login</a>
+                        <a href="appointment.html" class="dropdown-item">Volunteer login</a>
+                        <a href="testimonial.html" class="dropdown-item">Search and request</a>
+                      
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Donation Stories</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                        <a href="feature.html" class="dropdown-item">Testimonials</a>
+                        <a href="team.html" class="dropdown-item">Donor's registered</a>
+                        <a href="appointment.html" class="dropdown-item">Number of people helped</a>
+                       
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Support</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                        <a href="feature.html" class="dropdown-item">Contact us</a>
+                        <a href="team.html" class="dropdown-item">Social Networks</a>
+                </div>
+            </div>
+            <a href="appointment.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block" style="background-color: rgb(169, 5, 5);">Appointment<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+<!--    </div> -->
+
+<div class='row' style='padding-top:6px;'>
+    <div class='row text-center'>
+      <div class='col-md-12 typeHeading'>
+        <h1 class='learnAbout'>Learn About Donation</h1>
+      </div>
+    
+    <br><br>
+    <div class="wow col-sm-6 rotateInDownRight text-center" data-wow-delay="0ms" data-wow-duration="1000ms">
+      <!-- <img src='assets/donationFact.jpg'></img> -->
+      <picture>
+        <source srcset="assets/webp/donationFact.webp" type="image/webp">
+        <source srcset="assets/donationFact.jpg" type="image/jpeg">
+        <img src='img/idk.jpg' alt='One Donation Can save upto three lives'>
+      </picture>
+      <blockquote>
+        <p style='font-family:oswald'>After donating blood, the body works to replenish the blood loss. This
+          stimulates the production of new blood cells and in turn, helps in maintaining good health.
+        <p>
+      </blockquote>
+
+      <button onclick="window.location='/BLDAHIMS/bloodbank/nearbyBBRed.cnt'"
+        class='btn btn-danger svcNearBy hvr-sweep-to-right '><i class='fa fa-tint'></i>&nbsp; Donate Now</button>
+      <br><br>
+    </div>
+
+
+    <div class='col-sm-6' align="center" style="font-size: 1.5rem;">
+      <table class="table table-responsive  " >
+        <tbody>
+          <tr>
+            <th colspan="3" style='color:white;background-color:red;'>Compatible Blood Type Donors</th>
+          </tr>
+          <tr>
+            <td><b>Blood Type</b></td>
+            <td><b>Donate Blood To</b></td>
+            <td><b>Receive Blood From</b></td>
+          </tr>
+          <tr>
+            <td><span style="color: #961e1b;"><b>A+</b></span></td>
+            <td>A+ AB+</td>
+            <td>A+ A- O+ O-</td>
+          </tr>
+          <tr>
+            <td><span style="color: #961e1b;"><b>O+</b></span></td>
+            <td>O+ A+ B+ AB+</td>
+            <td>O+ O-</td>
+          </tr>
+          <tr>
+            <td><span style="color: #961e1b;"><b>B+</b></span></td>
+            <td>B+ AB+</td>
+            <td>B+ B- O+ O-</td>
+          </tr>
+          <tr>
+            <td><span style="color: #961e1b;"><b>AB+</b></span></td>
+            <td>AB+</td>
+            <td>Everyone</td>
+          </tr>
+          <tr>
+            <td><span style="color: #961e1b;"><b>A-</b></span></td>
+            <td>A+ A- AB+ AB-</td>
+            <td>A- O-</td>
+          </tr>
+          <tr>
+            <td><span style="color: #961e1b;"><b>O-</b></span></td>
+            <td>Everyone</td>
+            <td>O-</td>
+          </tr>
+          <tr>
+            <td><span style="color: #961e1b;"><b>B-</b></span></td>
+            <td>B+ B- AB+ AB-</td>
+            <td>B- O-</td>
+          </tr>
+          <tr>
+            <td><span style="color: #961e1b;"><b>AB-</b></span></td>
+            <td>AB+ AB-</td>
+            <td>AB- A- B- O-</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+</div></div>
+<!-- "Info Window ends" -->
+
+<div class='row donationTypes' style="font-size: 1.5rem;" >
+
+  <div class='col-md-12  donationTypeInfoWindow text-center' >  <!-- col-md-offset-2 -->
+    <header class="typeHeading">
+      <h1>Types of donation</h1>
+    </header>
+    <!-- /Header -->
+
+    <!-- Content -->
+    <div class="content">
+      <p style="text-align: center;">The average human body contains about five liters of blood, which is made of several cellular
+        and non-cellular components such as <strong>Red blood cell</strong>, 
+         <strong>Platelet</strong>, and <strong>Plasma</strong>.</p>
+      <p style="text-align: center;">Each type of component has its unique properties and can be used for different
+                                       indications. The donated blood is separated into these components
+                                       by the blood centre and one donated unit can save upto four lives depending on the number of
+                                        components separated from your blood.</p>
+      <!-- <p style="text-align: center;">For <strong>plasma</strong> and <strong>platelet</strong> donation you must
+        have donated whole blood in past two years.</p> -->
+
+    </div>
+    <br><br>
+    <!-- "Tabs" -->
+    <ul class="nav nav-tabs">
+
+      <li onclick="openInfo(event, 'wholeBlood')" id="wb" class=" active infoLink"><a
+          href="javascript:void(0)">Packed Red Blood cells</a></li>
+      <li onclick="openInfo(event, 'plasma')" id="pls" class=" infoLink"><a href="javascript:void(0)">Plasma</a>
+      </li>
+      <li onclick="openInfo(event, 'platelet')" id="plt" class=" infoLink"><a
+          href="javascript:void(0)">Platelet</a></li>
+    </ul>
+
+
+    <div class='row tabInfo' id='wholeBlood'>
+      <div class='col-md-4 '>
+
+        <h3>What is it?</h3>
+
+        <p>
+          Blood Collected straight from the donor into a blood bag and mixed with an anticoagulant is
+called as whole blood. This collected whole blood is then centrifuged and red cell, platelets and
+plasma are separated. The separated Red cells are mixed with a preservative to be called as
+packed red blood cells.</p>
+
+        <h3>Who can donate?</h3>
+
+        <p>You need to be 18-65 years old, weight 45kg or more and be fit and healthy.</p>
+
+
+      </div>
+      <div class='col-md-4 infoContent'>
+        <h3>User For?</h3>
+
+        <p>
+         Correction of severe anemia in a number of conditions and blood loss in case of child birth,
+          surgery or trauma settings.</p>
+
+        <h3>Lasts For?</h3>
+
+        <p>Red cells can be stored for 42 days at 2-6 degree celsius.</p>
+
+      </div>
+      <div class='col-md-4 '>
+        <h3>How long does it take to donate?</h3>
+
+        <p>
+          15-30 minutes to donate.including the pre-donation check-up.</p>
+
+        <h3>How often can I donate?</h3>
+
+        <p>Male donors can donate again after 90 days and female donors can donate again after 120 days.</p>
+
+      </div>
+    </div>
+
+    <div class='row tabInfo' style='display:none' id='plasma'>
+      <div class='col-md-4 '>
+
+        <h3>What is it?</h3>
+
+        <p>
+          The straw-coloured liquid in which red blood cells, white blood cells, and platelets float in is called plasma.Contains
+          special nutrients which can be used to create 18 different type of medical products to treat many
+          different medical conditions. Plasma can be obtained from the collected whole blood after red blood cells and platelets have
+          been separated. Additionally, it can also be collected using an apheresis equipment where other
+          components are returned to the donor. The former is a common method of plasma preparation in
+          our country.</p>
+
+        <h3>Who can donate?</h3>
+
+        <p>The donation criteria is similar to that of red blood cell. However, for apheresis plasma
+          collection minimum weight is 50 kgs.</p>
+
+
+      </div>
+      <div class='col-md-4 infoContent'>
+        <h3>User For?</h3>
+
+        <p>
+         Used for bleeding patients with
+          coagulation factor deficiency such as hemophilia A and B, von willibrand disease etc. also used
+          in cases of blood loss due to trauma.</p>
+
+        <h3>Lasts For?</h3>
+
+        <p>Plasma after separation if frozen below -30 degrees can be stored up to one year.</p>
+
+      </div>
+      <div class='col-md-4 '>
+        <!-- <h3>How does it work?</h3>
+
+        <p>
+          We collect your blood, keep plasma and return rest to you by apheresis donation.</p>
+-->
+        <h3>How long does it take?</h3>
+
+        <p>
+          15-30 minutes to donate including the pre-donation check-up.</p>
+
+        <h3>How often can I donate?</h3>
+
+        <p>similar to the red cell donation.</p>
+
+      </div>
+    </div>
+
+    <div class='row tabInfo' style='display:none' id='platelet'>
+      <div class='col-md-4 '>
+
+        <h3>What is it?</h3>
+
+        <p>
+          These are cellular elements in blood which wedge together to help to clot and reduce bleeding. Always in high
+          demand, Vital for people with low platelet count, like hematology and cancer patients.</p>
+
+        <h3>Who can donate?</h3>
+
+        <p>One can donate whole blood from which the blood centre will separate platelets from other
+components. Criteria similar to whole blood donation apply.
+Alternatively, one can donate using apheresis equipment where only platelets are collected and
+rest components are returned back to donate. One need to satisfy whole blood criteria and pre-
+donation screening which include negative infectious markers and platelet count &gt;1,50,000 per
+microlitre of blood. Weight should be &gt;50kgs.</p>
+
+
+      </div>
+      <div class='col-md-4 infoContent'>
+        <h3>User For?</h3>
+
+        <p>
+          Conditions with very low platelet count such as Cancer, blood diseases, trauma, dengue etc.</p>
+
+        <h3>Lasts For?</h3>
+
+        <p>can be stored for 5 days at 20-24 degree celsius.</p>
+
+      </div>
+      <div class='col-md-4 '>
+        <h3>How does it work?</h3>
+
+        <p>
+          We collect your blood, keep platelet and return rest to you by apheresis donation.</p>
+
+        <h3>How long does it take?</h3>
+
+        <p>
+          45-60 minutes to donate. 2-3 hours for pre-donation screening.</p>
+
+        <h3>How often can I donate?</h3>
+
+        <p>Every 2 weeks but should not exceed more than 24 times in a year.</p>
+
+      </div>
+    </div>
+    <br><br>
+    <button type='button' onclick="window.location='/BLDAHIMS/bloodbank/nearbyBBRed.cnt'"
+      style='border-radius:0px' class='btn-lg btn btn-danger svcNearBy hvr-sweep-to-right '>Find Nearest Blood
+      Bank To Donate</button>
+    <br><br>
+  </div>
+</div>
+
+<section id="twitter" class="parallax"  style="font-size: 1.8rem;">
+  <div>
+    <a class="twitter-left-control" href="#twitter-carousel" role="button" data-slide="prev"><i
+        class="fa fa-angle-left"></i></a>
+    <a class="twitter-right-control" href="#twitter-carousel" role="button" data-slide="next"><i
+        class="fa fa-angle-right"></i></a>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+          <div class="twitter-icon text-center">
+            <i class="fa fa-tint"></i>
+            <h4>How Donation Works </h4>
+          </div>
+          <div id="twitter-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="item active wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <i class='fa fa-clock-o donationWork'></i>
+                <p>It Takes Only an Hour&nbsp;<a href="#"><span>Donate blood save lives !</span> Read Blood
+                    Donation Facts</a></p>
+              </div>
+              <div class="item">
+                <i class='fa fa-clock-o donationWork'></i>
+                <p>There is nothing better than saving a life &nbsp;<a href="#"><span>Every blood donor is a
+                      hero,</span> Read Blood Donation Facts</a></p>
+              </div>
+              <div class="item">
+                <i class='fa fa-inr donationWork'></i>
+                <p>It Costs Nothing&nbsp;<a href="#"><span>Give blood and stay healthy,</span> Read Blood Donation
+                    Facts</a></p>
+              </div>
+              <div class="item">
+                <i class='fa fa-beer donationWork'></i>
+                <p>You will get free refreshments after donation&nbsp;<a href="#"><span>Donation of blood is safe
+                      and healthy, </span>Read Blood Donation Facts</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+ <!-- Footer Start -->
+ <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5" style="background-color: brown;">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-light mb-4">Address</h5>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, Mumbai, India</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+913456789077</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+          
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-light mb-4">Quick Links</h5>
+                <a class="btn btn-link" href="">About Us</a>
+                <a class="btn btn-link" href="">Programs</a>
+                <a class="btn btn-link" href="">User</a>
+                <a class="btn btn-link" href="">Donation Stories</a>
+                <a class="btn btn-link" href="">Support</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-light mb-4">Newsletter</h5>
+                <p>Subscribe and stay upto date with all our developments!</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">PulseCare.com</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+
+
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/tempusdominus/js/moment.min.js"></script>
+<script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+<script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+</body>
+
+</html>
